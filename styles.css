@@ -1,0 +1,89 @@
+:root {
+    --azure-radiance-50: #eef9ff;
+    --azure-radiance-100: #d8f1ff;
+    --azure-radiance-200: #bae6ff;
+    --azure-radiance-300: #8bd9ff;
+    --azure-radiance-400: #54c1ff;
+    --azure-radiance-500: #2da3ff;
+    --azure-radiance-600: #0a7efa;
+    --azure-radiance-700: #0f6ce6;
+    --azure-radiance-800: #1356ba;
+    --azure-radiance-900: #164b92;
+    --azure-radiance-950: #122e59;
+}
+
+body {
+    background: var(--azure-radiance-200);
+}
+
+nav {
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+    width: 100vw;
+    border-radius: 10px;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.button-link{
+    text-decoration: none;
+    color: var(--azure-radiance-50);
+    padding: 10px;
+    background-color: var(--azure-radiance-600);
+    margin-left: 10px;
+    border-width: 0px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: var(--azure-radiance-800);
+    text-shadow: var(--azure-radiance-950);
+}
+
+h2, h1, p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+header {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEUQBrhd8MlmmzOd1OHAyweMmTVpr28QFkdA&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    color: var(--azure-radiance-50);
+    padding-bottom: 20px;
+}
+
+#projects div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--azure-radiance-700);
+    width: 190px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    background-color: var(--azure-radiance-800);
+}
